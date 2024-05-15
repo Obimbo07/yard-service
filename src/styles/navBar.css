@@ -1,0 +1,50 @@
+.navbar {
+    display: flex; /* Allow stacking rows */
+    flex-direction: column; /* Stack rows vertically */
+    padding: 10px 20px;
+    background-color: #333; /* Adjust background color */
+    color: #fff; /* Adjust text color */
+  }
+  
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    display: flex; /* Allow arranging elements within each row */
+    justify-content: space-between; /* Distribute elements horizontally */
+    align-items: center; /* Align elements vertically */
+  }
+  
+  .top-row a,
+  .bottom-row p {
+    color: inherit; /* Inherit text color from navbar */
+    margin: 0 5px; /* Add some spacing between links */
+  }
+  
+  .top-row a i {
+    font-size: 18px; /* Adjust social link icon size */
+  }
+  
+  .middle-row {
+    flex: 1; /* Make middle row take remaining space */
+  }
+  
+  .logo {
+    font-size: 24px; /* Adjust logo size */
+    text-decoration: none; /* Remove underline from logo */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    margin: 0 10px; /* Add some spacing between links */
+    padding: 5px 10px; /* Add some padding for links */
+  }
+  
+  .nav-link.active {
+    background-color: #ddd; /* Highlight active link */
+    color: #333; /* Adjust text color for active link */
+  }
+  
+  .bottom-row p {
+    font-size: 12px; /* Adjust font size for route display */
+  }
+  
